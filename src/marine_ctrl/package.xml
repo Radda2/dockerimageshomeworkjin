@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>marine_ctrl</name>
+  <version>0.1.0</version>
+  <description>Simple ROS 2 Python publishers that drive a marine robot via cmd_vel (Twist).</description>
+  <maintainer email="ra2ric3@gmail.com">jin</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
